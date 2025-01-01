@@ -13,7 +13,9 @@ Mscc.GenerativeAI.Google (2.0.1): For integrating AI capabilities into scraper
 Axios (1.7.9): HTTP client for frontend to call web API  
 
 ## Quick Start
+```
 docker run -d -p 5000:5000 -e "SBR_DRIVER={SELENIUM URL}" -e "GEMINI_API_KEY={APIKEY}" danielgoddard/webscraperai:latest
+```
 
 ## How to use
 1. Input the website URL and a description of the data you want to extract.
